@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kedai Kopi</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html">Kopi Nusantara</a>
+            </div>
+            <div class="menu">
+                <a href="index.html">Beranda</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="about.html">About Us</a>
+                <a href="kontak.html">Kontak</a>         
+                <a href="#">
+                    <img src="icons/expand_less-24px.svg" class="closebtn" alt="close-24px">
+                </a>
+            </div>
+            <a href="#" class="icons">
+                <img src="icons/menu-24px.svg" class="menubtn" alt="menu-24px">
+            </a>
+        </div>
+    </header> 
+
+    <div class="halaman-kontak">
+        <div class="kontak">
+            <div class="container">
+                <h1>Kontak Kami</h1>
+                <br>
+                <p>Untuk kemajuan website ini apabila para pembaca memiliki kritik dan saran untuk website ini kedepannya silahkan isi form di bawah ini</p><br><br>
+                <form action="index.hmtl" method="GET">
+                    <label for="nama">Nama</label><br>
+                    <input type="text" name="nama" placeholder="Nama anda" class="form-control">
+                    <div class="underline"></div>
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" placeholder="Email anda" class="form-control">
+                    <div class="underline"></div>
+                    <br>
+                    <label for="pesan">Pesan</label><br>
+                    <textarea name="pesan" id="pesan" cols="30" rows="5" class="form-control" placeholder="Kritik atau saran.."></textarea>
+                    <div class="underline"></div>
+                    <br><br>
+                    <input type="submit" class="btn-submit" value="Kirim">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
